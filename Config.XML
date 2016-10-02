@@ -1,0 +1,11 @@
+<Configuration>
+	<Path>test</Path>
+	<Execute>test</Execute>
+	<PageLoadTime>test</PageLoadTime>
+	<EmailSend>test</EmailSend>
+	<EmailTo>test</EmailTo>
+	<Emailcc>test</Emailcc>
+	<Emailbcc>test</Emailbcc>
+	<EmailBody>test</EmailBody>
+	<SendAttachment>test</SendAttachment>
+</Configuration>

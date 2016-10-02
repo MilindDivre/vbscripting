@@ -1,0 +1,88 @@
+Abs(vNumber) - Returns the absolute value of a specified number
+Atn(vNumber) - Returns the arctangent of a specified number
+Cos(vNumber) - Returns the cosine of a specified number (angle)
+Exp(vPower) - Returns e raised to a power
+Hex(vNumber) - Returns the hexadecimal value of a specified number
+Int(vNumber) - Returns the integer part of a specified number
+Fix(vNumber) - Returns the integer part of a specified number
+Log(vNumber) - Returns the natural logarithm of a specified number
+Oct(vNumber) - Returns the octal value of a specified number
+Rnd() - Returns a random number less than 1 but greater or equal to 0
+Sgn(vNumber) - Returns an integer that indicates the sign of a specified number
+Sin(vNumber) - Returns the sine of a specified number (angle)
+Sqr(vNumber) - Returns the square root of a specified number
+Tan(vNumber) - Returns the tangent of a specified number (angle)
+
+VBScript supports the following commonly used conversion functions:
+CBool(vVariant) - Converts an expression to a variant of subtype Boolean
+CByte(vVariant) - Converts an expression to a variant of subtype Byte
+CCur(vVariant) - Converts an expression to a variant of subtype Currency
+CDate(vVariant) - Converts a valid date and time expression to the variant of subtype Date
+CDbl(vVariant) - Converts an expression to a variant of subtype Double
+CInt(vVariant) - Converts an expression to a variant of subtype Integer
+CLng(vVariant) - Converts an expression to a variant of subtype Long
+CSng(vVariant) - Converts an expression to a variant of subtype Single
+CStr(vVariant) - Converts an expression to a variant of subtype String
+
+VBScript supports the following commonly used string functions:
+InStr(sString, sSubString) - Returns the position of the first occurrence of one string within another. The search begins at the first character of the string
+InStrRev(sString, sSubString) - Returns the position of the first occurrence of one string within another. The search begins at the last character of the string
+LCase(sString) - Converts a specified string to lowercase
+Left(sString, iLen) - Returns a specified number of characters from the left side of a string
+Len(sString) - Returns the number of characters in a string
+LTrim(sString) - Removes spaces on the left side of a string
+RTrim(sString) - Removes spaces on the right side of a string
+Trim(sString) - Removes spaces on both the left and the right side of a string
+Mid(sString, iStart, iLen) - Returns a specified number of characters from a string
+Replace(sString, sOld, sNew) - Replaces a specified part of a string with another string a specified number of times
+Right(sString, iLen) - Returns a specified number of characters from the right side of a string
+Space(iLen) - Returns a string that consists of a specified number of spaces
+StrComp(sString1, sString2) - Compares two strings and returns a value that represents the result of the comparison
+String(iLen, sChar, iLen) - Returns a string that contains a repeating character of a specified length
+StrReverse(sString) - Reverses a string
+UCase(sString) - Converts a specified string to uppercase
+Asc(sString) - Converts the first letter in a string to ANSI code
+Chr(iInteger) - Converts the specified ANSI code to a character
+
+VBScript supports the following commonly used date and time functions:
+CDate(vVariant) - Converts a valid date and time expression to the variant of subtype Date
+Date() - Returns the current system date
+DateAdd(sType, iInterval, tDate) - Returns a date to which a specified time interval has been added
+DateDiff(tDate1, tDate2) - Returns the number of intervals between two dates
+DatePart(sType, tDate) - Returns the specified part of a given date
+DateSerial(iYear, iMonth, iDate) - Returns the date for a specified year, month, and day
+DateValue(vVariant) - Returns a date
+Day(tDate) - Returns a number that represents the day of the month (between 1 and 31, inclusive)
+FormatDateTime(tDate, iType) - Returns an expression formatted as a date or time
+Hour(tDate) - Returns a number that represents the hour of the day (between 0 and 23, inclusive)
+IsDate(vVariant) - Returns a Boolean value that indicates if the evaluated expression can be converted to a date
+Minute(tDate) - Returns a number that represents the minute of the hour (between 0 and 59, inclusive)
+Month(tDate) - Returns a number that represents the month of the year (between 1 and 12, inclusive)
+MonthName(iMonth) - Returns the name of a specified month
+Now() - Returns the current system date and time
+Second(tDate0 - Returns a number that represents the second of the minute (between 0 and 59, inclusive)
+Time() - Returns the current system time
+Timer() - Returns the number of seconds since 12:00 AM
+TimeSerial(iHour, iMinute, iSecond) - Returns the time for a specific hour, minute, and second
+TimeValue(tDate) Returns a time
+Weekday(tDate) - Returns a number that represents the day of the week (between 1 and 7, inclusive)
+WeekdayName(iWeekDay) - Returns the weekday name of a specified day of the week
+Year(tDate) - Returns a number that represents the year
+
+VBScript supports the following commonly used array functions:
+Array(vArg1, vArg2, ...) - Creates a new array and returns a scalar reference of the new array
+IsArray(vVariant) - Returns a Boolean value that indicates whether a specified variable is an array
+Join(aArray) - Returns a string that consists of a number of substrings in an array
+LBound(aArray) - Returns the smallest subscript for the indicated dimension of an array
+Split(sString, sDelimiter) - Returns a zero-based, one-dimensional array that contains a specified number of substrings
+UBound(aArray) - Returns the largest subscript for the indicated dimension of an array
+
+VBScript supports the following commonly used misc. functions:
+IsArray(variable) - Returns True if the specified variable is an array
+IsDate(variable) - Returns True if the specified variable can be converted to a date
+IsEmpty(variable) - Returns True if the specified variable is Empty
+IsNull(variable) - Returns True is the specified variable is Null
+IsNumeric(variable) - Returns True if the specified variable can be converted to a number
+IsObject(variable) - Returns True if the specified variable is an object
+TypeName(variable) - Returns the type name of the specified variable
+VarType(vVariant) - Returns the type code of the specified variable
