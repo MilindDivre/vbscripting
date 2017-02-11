@@ -1,4 +1,4 @@
-REM Const adOpenStatic = 3
+REM Const adOpenStatic = 3 ' adding somthing to branch
 REM Const adLockOptimistic = 3
 
 REM Set objConnection = CreateObject("ADODB.Connection")
