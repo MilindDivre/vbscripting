@@ -1,21 +1,21 @@
- REM dim objShell
-        REM dim objShellWindows
+  dim objShell
+        dim objShellWindows
         
-        REM set objShell = CreateObject("shell.application")
-        REM set objShellWindows = objShell.Windows
+         set objShell = CreateObject("shell.application")
+         set objShellWindows = objShell.Windows
 
-        REM if (not objShellWindows is nothing) then
-            REM cnt = WScript.Echo objShellWindows.Count
-			
-        REM end if
+         if (not objShellWindows is nothing) then
+             cnt = objShellWindows.Count
+			msgbox cnt
+         end if
 
-        REM set objShellWindows = nothing
-        REM set objShell = nothing
+        set objShellWindows = nothing
+         set objShell = nothing
 		
 		
-        dim objShell
+        ' dim objShell
         
-        set objShell = CreateObject("shell.application")
-        objShell.CascadeWindows
-        set objShell = nothing
+        ' set objShell = CreateObject("shell.application")
+        ' objShell.CascadeWindows
+        ' set objShell = nothing
    

@@ -24,7 +24,7 @@ REM 768 =Fourth button is default
 REM 0 =Application modal (the current application will not work until the user responds to the message box)
 REM 4096 =System modal (all applications wont work until the user responds to the
 
-dialogArr =  array(0,1,2,3,4,16,32,48,64)
+dialogArr =  array(0,1,2,3,4,16,32,48,64,256,512,768,4096)
 for each i in dialogArr
 	msgbox "Your Text Here" ,i, "Your i="&i
 next

@@ -13,11 +13,11 @@ msgbox targetString ' No change in actual string
 msgbox colMatch.Count
 msgbox colMatch.Item(0)
 
-REM for each match in colMatch
-	REM msgbox match.FirstIndex
-	REM msgbox match.length
-	REM msgbox match.value
-REM next
+for each match in colMatch
+	msgbox match.FirstIndex
+	msgbox match.length
+	msgbox match.value
+next
 
 REM function submatchesex(strEmail)
 REM set regex = new regexp

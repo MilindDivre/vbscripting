@@ -9,16 +9,19 @@ MyTime = Now
 
 ToAddress = "milind.divre@sqs.com"
 MessageSubject = "It works!."
-MessageBody = "<!DOCTYPE html><html>"
- MessageBody = MessageBody &"<h1>Hello World<h1>"
- MessageBody = MessageBody &"</html>"
+MessageBody = "<html> <h1>Hello World</h1> </html>"
+ 'MessageBody = MessageBody &"<h1>Hello World<h1>"
+' MessageBody = MessageBody &"</html>"
+ textbody = MessageBody
 'MessageAttachment = "c:\File.txt"
 'MessageAttachment1 = "c:\test.xls"
 Set ol = CreateObject("Outlook.Application")
 'Set ns = ol.getNamespace("MAPI")
 Set newMail = ol.CreateItem(olMailItem)
 newMail.Subject = MessageSubject
-newMail.Body = MessageBody & vbCrLf & MyTime
+newMail.BodyFormat = 2
+newMail.HTMLBody = textbody
+'newMail.Body = textbody 
 newMail.RecipIents.Add(ToAddress)
 'newMail.Attachments.Add(MessageAttachment)
 'newMail.Attachments.Add(MessageAttachment1)

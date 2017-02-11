@@ -4,12 +4,12 @@ Function readData(strFile)
 	Set objFile = objFSO.OpenTextFile(strFile, ForReading)
 	Const ForReading = 1
 	Do Until objFile.AtEndOfStream
-		line=objFile.ReadLine
+		line=objFile.Readall
 		msgbox LTrim(line)
 	Loop
 	objFile.Close
 end function
-call readData("C:\VB Script Training\inbuilt_Functions.txt")
+call readData("C:\Users\divrem\Desktop\VB Script Training\test.qfl")
 
 'Write Data
 

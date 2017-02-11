@@ -17,4 +17,5 @@ for each item in dict
 	objURLShortcut.TargetPath = dict.item(item) 
 	objURLShortcut.Save 
 next
-msgbox "Favorites Added Close IE And Relaunch Again!!"
+
+msgbox "Favorites Added Close IE And Relaunch Again!!!"

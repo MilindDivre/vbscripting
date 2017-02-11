@@ -1,9 +1,9 @@
 REM abc =9.99
 REM msgbox typename(abc)
-date1 =#15/30/1997#
+date1 = #15/3/1997#
 msgbox date1
-REM abc = 99
-REM msgbox typename(abc)
-REM abc =500000 * 99
-REM msgbox abc
-REM msgbox typename(abc)
+abc = 99
+msgbox typename(abc)
+ abc =500000 * 993333
+msgbox abc
+msgbox typename(abc)
